@@ -1,4 +1,3 @@
-from answer import answers
 
 
 # 1. 다음 리스트에서 400, 500을 삭제하는 코드를 입력하세요.
@@ -37,27 +36,76 @@ print(q5_a + q5_b)
 
 #===========================================
 
-QuestionVals ={
-    q1_nums : q1_nums
-}
 
+def a1():
+    q1_nums.pop()
+    q1_nums.pop()
+    return 
+
+def a2():
+    q2_l.insert(2, 10000)
+    return
+
+def a3():
+    return "list"
+
+def a4():
+    return 3
+
+def a5():
+    return 16
+
+def a6():
+    return
+
+def a7():
+    return
+
+def a8():
+    return
+
+def a9():
+    return
+
+def a10():
+    return
+
+def a11():
+    return
+
+def a12():
+    return
+
+def a13():
+    return
+
+def a14():
+    return
+
+def a15():
+    return
+
+def a16():
+    return
 
 
 def check_answer():
-    print("1번문제", answers["a1"])
-    # assert q1_nums == [100,200,300], "1번문제 오답입니다."
+    a1()
+    print("1번 문제")
+    assert q1_nums==[100,200,300], "1번문제 오답입니다."
+    
+    a2()
+    print("2번 문제")
+    assert q2_l == [200,100,10000,300], "2번문제 오답입니다."
 
-    # print("2번문제", answers["a2"])
-    # assert q2_l == [200,100,1000,300] or answers["a2"] == [200,100,1000,300] or answers["a2"] =="", "2번문제 오답입니다."
+    print("3번 문제")
+    assert a3() == "list", "3번문제 오답입니다."
 
-    # print("3번문제", answers["a3"])
-    # assert answers["a3"] =="list" or answers["a3"] =="", "3번문제 오답입니다."
+    print("4번 문제")
+    assert a4() == 3 or a4() == "3", "4번문제 오답입니다."
 
-    # print("4번문제", answers["a4"])
-    # assert answers["a4"] =="3" or answers["a4"] ==3 or answers["a4"] =="", "4번문제 오답입니다."
-
-    # print("5번문제", answers["a5"])
-    # assert answers["a5"] =="4" or answers["a5"] ==4 or answers["a5"] == "16" or answers["a5"] == 16 or answers["a5"] =="", "5번문제 오답입니다."
+    print("5번 문제")
+    assert a5() == 16 or a5() == "16", "5번문제 오답입니다."
 
 check_answer()
 
