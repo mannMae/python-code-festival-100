@@ -1,6 +1,6 @@
-# ord, chr
 q_str = "cbacdcbc"
 
+# ord
 dic = {
     "a" : "1",
     "b" : "2",
@@ -13,6 +13,7 @@ dic = {
     "i" : "9"
 }
 
+# chr
 dic2 = {
     "1" : "a",
     "2" : "b",

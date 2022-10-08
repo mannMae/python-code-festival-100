@@ -13,7 +13,6 @@ def remove_duplicate_letters(s:str) ->str:
         if char in seen:
             continue
         
-        print(stack)
         #1. stack이 비어있는 경우에 대한 예외
         #2. 현재 문자가 stack에 가장 마지막에 들어간 문자보다 앞선 문자인 경우
         #3. 스택에 가장 마지막에 들어간 문자가 아직 문자열에 남아있는 경우
