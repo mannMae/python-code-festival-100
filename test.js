@@ -1,1 +1,2 @@
-console.log([]);
+str = 'sadbutsad';
+needle = 'sad';
